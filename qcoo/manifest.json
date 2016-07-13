@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "QCoo",
+    "description": "ScratchX for QCoo",
+    "version": "1.0",
+    "offline_enabled": true,
+    "app":{
+        "background":{
+            "scripts":["background.js"]
+        }
+    },
+    "permissions": [
+        "serial",
+        "fileSystem",
+        "<all_urls>"
+    ],
+
+    "externally_connectable": {
+        "matches": ["*://scratchx.org/*"]
+    },
+
+    "icons": {
+        "512": "QCoo.png"
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>LiteBee</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui-1.9.2.custom.css">
+    <link rel="stylesheet" href="./css/jquery.fileupload.css">
+    <link rel="stylesheet" href="./css/jquery.fileupload-ui.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<a href="#" class="v4-tease">QCoo</a>
+<div class="container">
+<p>Qcoo</p>
+<hr/>
+<div class="group" id="comm-group">
+    <p>Serial Connection</p>
+    <div class="row-fluid" style="margin-top: 10px">
+        <div class="btn-group" id="serial-port">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="serial-current" style="width: 185px">
+                COM1<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" id="serial-dropdown">
+
+            </ul>
+        </div>
+        <a href="#" class="btn btn-primary" id="btnConnect">connect</a>
+    </div>
+</div>
+<hr/>
+<p>QCoo, the first high-tech gadget merges classic game Snake into 3D space, with AR, LED dice, and LED effect.</p>
+<p id="filename"></p>
+<div class="row-fluid" style="margin-top: 10px">
+
+</div>
+
+
+
+<button id="scratchx-start" class="btn btn-info" type="submit">
+    <img src="./img/scratchx-logo.png"/>
+</button>
+</div>
+<script src="./js/serial.js"></script>
+<script src="./js/vendor/jquery.min.js"></script>
+ <script src="./js/vendor/bootstrap.min.js"></script>
+<script src="./js/vendor/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="./js/jquery.fileupload.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
