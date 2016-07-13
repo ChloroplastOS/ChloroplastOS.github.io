@@ -71,23 +71,25 @@
 
     // Block and block menu descriptions
     var descriptor = {
+
         blocks: [
             [' ', 'Face %d.face color %n', 'setFaceColor','Front','1'],
             [' ', 'Run Effect %n','setEffect',1],
             [' ', 'Vibrate %d.onoff','setViberate','on'],
 
         ],
+
         menus: {
             face: ['Front', 'Back','Up','Bottom','Left','Right'],
             colornum: ['1','2','3' ],
             onoff: ['on','off'],
         },
 
-        url: 'http://getqcoo.com/'
+        url: 'http://ch.funmetas.com/'
     };
 
 
     // Register the extension
-    ScratchExtensions.register('Qcoo', descriptor, ext);
+    ScratchExtensions.register('Metas', descriptor, ext);
 
 })({});
