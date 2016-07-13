@@ -65,7 +65,7 @@
 
     function sendMsg(msg){
         console.log("send msg: "+msg);
-        chrome.runtime.sendMessage('jpjcdkjcfocfcmaclpjecofnamihkfim', msg, processInput)
+        chrome.runtime.sendMessage('bbdbfcgfdibdoeblkggamnpndbgbekcn', msg, processInput)
         //chrome.runtime.sendMessage('lohclnpicjahbccciannbegiamdbgeln', msg, processInput)
     }
 
