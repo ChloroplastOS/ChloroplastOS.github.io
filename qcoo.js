@@ -83,7 +83,7 @@
             onoff: ['on','off'],
         },
 
-        url: 'http://qcoo.cc/'
+        url: 'http://getqcoo.com/'
     };
 
     // Register the extension
