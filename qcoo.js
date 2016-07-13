@@ -5,6 +5,7 @@
 
     ext._getStatus = function() {
         if (!connected){
+            sendMsg({'proto':'probe'}); // check if host app online
             return { status:1, msg:'Disconnected' };
         }else{
 
